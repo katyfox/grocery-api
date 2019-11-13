@@ -35,7 +35,7 @@ namespace grocery_api
         {
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "My API", Version = "v1" });
+                c.SwaggerDoc("v1", new Info { Title = "Grocery API", Version = "v1" });
             });
         }
 
